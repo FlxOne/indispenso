@@ -243,7 +243,7 @@ func PostHttpCheck(w http.ResponseWriter, r *http.Request, ps httprouter.Params)
 	hc.ClientIds = clientIds
 	hc.TemplateId = templateId
 	hc.Enabled = true
-	hc.Timeout = 30
+	hc.Timeout = 120
 
 	// Add and save
 	server.httpCheckStore.Add(hc)
