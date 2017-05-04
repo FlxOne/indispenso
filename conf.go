@@ -3,10 +3,10 @@ package main
 import (
 	"errors"
 	"fmt"
+	"github.com/fsnotify/fsnotify"
 	"github.com/spf13/cast"
 	"github.com/spf13/pflag"
 	"github.com/spf13/viper"
-	"github.com/fsnotify/fsnotify"
 	"os"
 	"regexp"
 	"strings"
